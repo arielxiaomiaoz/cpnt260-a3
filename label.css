@@ -1,0 +1,83 @@
+.header{
+  background-image: url(giant-panda-2536653_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header h1{
+  font-size: 5rem;
+  font-family: 'Anton', sans-serif;  
+  color: rgb(250, 190, 150);
+  text-shadow: rgb(33, 34, 28) 2px 5px;
+}
+
+.header p{
+  font-size: 3rem;
+  font-family: 'Peddana', serif;  
+  color: rgb(252, 248, 248);
+  margin-top: 0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+
+.wrapper h3{
+  margin-bottom: 0;
+}
+
+fieldset{
+  border: 0;
+  align-items: center;
+  align-content: center;
+}
+
+.name label {
+  display: inline-block;
+  width: 10ch;
+}
+
+.name input{
+  width: 30ch;
+  height: 3ch;
+}
+
+abbr{
+  color: red;
+}
+
+ul{
+  list-style: none;
+}
+
+fieldset.meals{
+  margin-left: -110px;
+}
+
+
+button{
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+button:hover{
+  background-color: rgb(146, 230, 233);
+}
